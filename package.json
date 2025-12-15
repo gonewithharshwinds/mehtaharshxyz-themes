@@ -1,0 +1,55 @@
+{
+  "name": "mehtaharshxyz-themes",
+  "displayName": "MehtaHarsh.xyz Themes",
+  "description": "A collection of cool and fresh new themes by MehtaHarsh.xyz for Visual Studio Code.",
+  "version": "0.3.0",
+  "publisher": "mehtaharshDOTxyz",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehtaharsh/vsc-themes"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Graphite Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/graphite-dark.json"
+      },
+      {
+        "label": "Graphite Light",
+        "uiTheme": "vs",
+        "path": "./themes/graphite-light.json"
+      },
+      {
+        "label": "Humanist Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/humanist-dark.json"
+      },
+      {
+        "label": "Humanist Light",
+        "uiTheme": "vs",
+        "path": "./themes/humanist-light.json"
+      },
+      {
+        "label": "Electric Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/electric-dark.json"
+      },
+      {
+        "label": "Electric Light",
+        "uiTheme": "vs",
+        "path": "./themes/electric-light.json"
+      }
+    ]
+  }
+}
