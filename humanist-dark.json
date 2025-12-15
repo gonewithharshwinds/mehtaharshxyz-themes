@@ -1,0 +1,67 @@
+{
+  "name": "Humanist Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#2e1c24",
+    "editor.foreground": "#f5ebe6",
+    "editorCursor.foreground": "#dba08b",
+    
+    "sideBar.background": "#3a242c",
+    "sideBar.foreground": "#dba08b",
+    "sideBar.border": "#663b49",
+    "sideBarSectionHeader.background": "#2e1c24",
+    
+    "activityBar.background": "#2e1c24",
+    "activityBar.foreground": "#dba08b",
+    "activityBar.border": "#663b49",
+    "activityBarBadge.background": "#b45f46",
+    "activityBarBadge.foreground": "#ffffff",
+    
+    "statusBar.background": "#3a242c",
+    "statusBar.foreground": "#dba08b",
+    "statusBar.border": "#663b49",
+    
+    "titleBar.activeBackground": "#2e1c24",
+    "titleBar.activeForeground": "#f5ebe6",
+    "titleBar.border": "#663b49",
+    
+    "tab.activeBackground": "#2e1c24",
+    "tab.activeBorderTop": "#dba08b",
+    "tab.activeForeground": "#f5ebe6",
+    "tab.inactiveBackground": "#3a242c",
+    "tab.border": "#663b49",
+    
+    "input.background": "#3a242c",
+    "input.border": "#8a4933",
+    "input.foreground": "#f5ebe6",
+    "focusBorder": "#c77961",
+    
+    "list.activeSelectionBackground": "#663b49",
+    "list.activeSelectionForeground": "#ffffff",
+    
+    "scrollbarSlider.background": "#663b4980",
+    "scrollbarSlider.hoverBackground": "#b45f46"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": { "foreground": "#b45f46", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["string"],
+      "settings": { "foreground": "#dba08b" }
+    },
+    {
+      "scope": ["keyword", "storage"],
+      "settings": { "foreground": "#ffb6a0", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#f5ebe6", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["punctuation", "meta.brace"],
+      "settings": { "foreground": "#8a4933" }
+    }
+  ]
+}
